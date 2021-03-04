@@ -1,8 +1,12 @@
 # Sony-SVD1321Z9E-VAIO-Hackintosh-OpenCore
 A working Hackintosh made with OpenCore for the SVD1321Z9E VAIO laptop
 
+You can find here my setup, source code of the ACPI ssdt patch can be found in the source code folder inside ACPI
+DSDT-6.aml is the dumped DSDT for information purpose.
+CimmerianVAIO.ioreg is also for information purpose.
 
-**Introduction**
+
+# Introduction
 
 If you're a SVD1321Z9E Vaio user (unlikely) who want to hackintosh it (even more unlikely) then the work has been done for you!
 Well VAIO laptop are like the worst laptop to hackintosh and this one gave me so much troubles, even more because VAIO aren't really popular on the hackintosh world. If you google VAIO SVD hackintosh on google you will only find old post which contains nothing useful for us. 
