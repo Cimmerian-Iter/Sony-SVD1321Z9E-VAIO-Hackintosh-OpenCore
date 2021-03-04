@@ -56,7 +56,7 @@ I fixed my touchpad after 3 days of testing by using voodooI2C+voodooRIM and edi
 There are still some issue with that config that I'll try to fix but the journey has been quite long to make this old piece of laptop working decently on mac os. I'm surprised that for a 2014 computer it still hold well mac os and run decently.
 
 
-**SETUP**
+# SETUP
 
 This setup is made to work with OpenCore 0.6.7, every OC update needs a config.plist update, I will update my config.plist everytime OC update, as long as I still use this computer of course. If I ever abandon it, use the ocvalidate tool from the opencore.zip to check what is needed to change in my config.plist to be set up for the newest OpenCore release.
 
@@ -67,7 +67,7 @@ This setup is made to work with OpenCore 0.6.7, every OC update needs a config.p
 There are some kext that I provide, which is USB mapping and some cpu tweaking to optimize the system. Download them
 -Once it's done, it should be ready. You can try to boot 
 
-**ISSUES**
+# ISSUES
 
 There is currently some issues with my config, check the issue tab to know more.
 
