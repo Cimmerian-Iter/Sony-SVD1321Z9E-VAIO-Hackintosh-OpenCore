@@ -53,23 +53,31 @@ It was a pretty big win because the battery patch was the biggest major step to 
 
 I fixed my touchpad after 3 days of testing by using voodooI2C+voodooRIM and editing the prebuilt ssdt the guide told me to use as it was incompatible with my machine (ssdt made for windows10 computer while my computer first launched with windows8)
 
-There are still some issue with that config that I'll try to fix but the journey has been quite long to make this old piece of laptop working decently on mac os. I'm surprised that for a 2014 computer it still hold well mac os and run decently.
+There are still some issue with that config that I'll try to fix but the journey has been quite long to make this old piece of laptop working decently on mac os. I'm surprised that for a 2013 computer it still hold well mac os and run decently.
 
 
 # SETUP
 
-This setup is made to work with OpenCore 0.6.7, every OC update needs a config.plist update, I will update my config.plist everytime OC update, as long as I still use this computer of course. If I ever abandon it, use the ocvalidate tool from the opencore.zip to check what is needed to change in my config.plist to be set up for the newest OpenCore release.
+This setup is made to work with OpenCore 0.7.5, every OC update needs a config.plist update, I will update my config.plist everytime OC update, as long as I still use this computer of course. If I ever abandon it, use the ocvalidate tool from the opencore.zip to check what is needed to change in my config.plist to be set up for the newest OpenCore release.
 
 -I would advise you first to read the dorthania guide for haswell laptop to know how things works and have a base opencore installation, I will not provide anything related to opencore installation, only specific VAIO files
--Download The ACPI folder to your OC folder, and put the config.plist inside the OC folder
--Download all the required kext, the one I use and listed in the config.plist are : https://cdn.discordapp.com/attachments/719817616511860821/817038765985759282/5A6B59DD-013E-4917-89A7-11AB3B856D82_4_5005_c.jpeg![image](https://user-images.githubusercontent.com/37327589/109977522-30aac480-7cfd-11eb-902f-3fb1de81865d.png)
 
-There are some kext that I provide, which is USB mapping and some cpu tweaking to optimize the system. Download them
+-Download Opencore.efi and BOOTX64.efi from Opencore 0.7.5 and put it in your efi folder, then download this repo and put it inside EFI/OC/
+
+There are some kext that I provide, which is USB mapping and some cpu tweaking to optimize the system.
+
 -Once it's done, it should be ready. You can try to boot 
 
 # ISSUES
 
 There is currently some issues with my config, check the issue tab to know more.
+
+This is probably the last revision, next up is MacOS Monterey and this SMBIOS has been dropped. So end of the line for my VAIO.
+I have already tested using MacBookPro11,4 SMBIOS which is still an haswell computer but supported by MacOS Monterey, but it has 16GB of ram.
+
+The experience wasn't that great on Monterey, you could feel a performance drop. This is why I decided to stay on BigSur. There's not much on Monterey that interest me anyway. This Computer has reached the technical limits of MacOs support, and to be honest it's incredible that a handbook from 2013 which support ended at windows 8.1 could have such a long life with supporting windows 11 (by bypassing checks ofc, but it's working really fine) and MacOS Big Sur.
+
+
 
 
 
